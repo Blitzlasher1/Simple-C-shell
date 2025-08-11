@@ -1,0 +1,15 @@
+total 84
+-rw-r--r-- 1 blitz blitz   287 Aug  2 15:53 Makefile
+-rw-r--r-- 1 blitz blitz     0 Aug  8 17:01 a.txt
+-rw-r--r-- 1 blitz blitz     0 Aug  9 21:24 b.txt
+-rw-r--r-- 1 blitz blitz  3947 Aug  9 21:23 executor.c
+-rw-r--r-- 1 blitz blitz 11888 Aug  9 21:24 executor.o
+-rw-r--r-- 1 blitz blitz     0 Aug  8 17:04 g.txt
+-rw-r--r-- 1 blitz blitz   645 Aug  8 03:40 headers.h
+-rw-r--r-- 1 blitz blitz  1246 Aug  9 21:08 main.c
+-rw-r--r-- 1 blitz blitz  9128 Aug  9 21:09 main.o
+-rw-r--r-- 1 blitz blitz     0 Aug  9 21:26 output.txt
+-rw-r--r-- 1 blitz blitz  2404 Aug  9 21:08 parser.c
+-rw-r--r-- 1 blitz blitz  9896 Aug  9 21:09 parser.o
+-rwxr-xr-x 1 blitz blitz 25272 Aug  9 21:24 simple_shell
+-rw-r--r-- 1 blitz blitz     0 Aug  9 21:12 text.txt

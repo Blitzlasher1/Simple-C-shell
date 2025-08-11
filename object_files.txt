@@ -1,0 +1,8 @@
+total 108
+-rw-r--r-- 1 blitz blitz  7631 Aug  9 23:25 executor.c
+-rw-r--r-- 1 blitz blitz 15464 Aug 11 18:41 executor.o
+-rw-r--r-- 1 blitz blitz     0 Aug  9 21:34 hola.txt
+-rw-r--r-- 1 blitz blitz 10752 Aug  9 23:19 main.o
+-rw-r--r-- 1 blitz blitz     0 Aug 11 18:42 object_files.txt
+-rw-r--r-- 1 blitz blitz   749 Aug  9 21:26 output.txt
+-rw-r--r-- 1 blitz blitz 12256 Aug  9 23:05 parser.o

@@ -53,8 +53,7 @@ int shell_exit(char **args) {
  * @param args Null terminated list of arguments.
  * @return Always returns 1, to continue the shell loop.
  */
-// executor.c
-// ... (other functions)
+
 
 /**
  * @brief Launches a program and waits for it to terminate (unless background).
@@ -133,8 +132,7 @@ int shell_launch(parsed_command* cmd) {
  * @param args Null terminated list of arguments.
  * @return 1 if the shell should continue, 0 if it should exit.
  */
-// executor.c
-// ... (your existing built-ins and functions)
+
 
 /**
  * @brief Executes a pipeline of commands.
@@ -219,35 +217,33 @@ int execute(pipeline* p) {
                 close(out_fd);
             }
 
-            // Execute the command
+            
             if (execvp(cmd->args[0], cmd->args) == -1) {
                 perror("shell");
             }
             exit(EXIT_FAILURE);
         } else if (pid < 0) {
-            // Error forking
+           
             perror("shell");
             exit(EXIT_FAILURE);
         }
 
-        // Parent process
-        // Close the file descriptors and set up for the next command
+       
         if (in_fd != STDIN_FILENO) close(in_fd);
         if (out_fd != STDOUT_FILENO) close(out_fd);
 
-        // The output of this command will be the input for the next
+        
         in_fd = fd[0];
     }
 
-    // Wait for all child processes to finish
+    
     for (i = 0; i < p->num_commands; i++) {
         wait(&status);
     }
 
     return 1;
 }
-// executor.c
-// ... (your existing shell_cd and shell_exit functions)
+
 
 /**
  * @brief Prints help information.
